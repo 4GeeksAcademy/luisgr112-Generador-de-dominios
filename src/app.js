@@ -1,11 +1,18 @@
-import "bootstrap";
-import "./style.css";
+let pronoun = ['the', 'our', 'the', 'our'];
+let adj = ['great', 'big'];
+let noun = ['jogger', 'racoon'];
 
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+for (let element of pronoun) {
+ for (let adjs of adj) {
+  for(let nouns of noun) {
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+    let dominios = "www."+ element + adjs + nouns +".com"
+    console.log(dominios)
+
+  }
+ }
+}
+
+
+
